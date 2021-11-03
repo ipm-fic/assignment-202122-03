@@ -55,7 +55,3 @@ tablas de las tareas anteriores y la siguiente tabla:
 | Cumple los requisitos de la lista proporcionada | Cumple todos los requisitos | No cumple algún requisito |
 | El proceso está documentado | La tarea está documentada en el fichero `a11y.pdf`  | No existe el fichero o no documenta la labor realizada |
 | La implementación es accesible | La aplicación es accesible, con las menos excepciones posibles | En general no es accesible |
-
-
-
-<a href="{{page.url|baseUrl}}tarea_4" class="paper-btn">Siguiente: Tarea 4</a>

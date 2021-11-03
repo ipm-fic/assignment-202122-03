@@ -133,8 +133,8 @@ apellidos, dni
 
 	Consultar la información personal
         Permite a una usuaria del sistema consultar los datos de su perfil:
-		nombre, apellidos, ..., su código QR y una lista de los 10 últimos
-		accesso registrados en el sistema.
+	nombre, apellidos, ..., su código QR y una lista de los 10 últimos
+	accesso registrados en el sistema.
 
 Una usuaria registrada puede consultar en cualquier momento la
 información descrita.
