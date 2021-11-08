@@ -60,6 +60,21 @@ tablas de las tareas anteriores y la siguiente tabla:
 | La implementación es _cross-browser_ | El código javascript funciona en la mayoría de navegadores | Se usan características no implementadas en los navegadores actuales |
 
 
-> N.B.: El servidor es el mismo que utilizaste en la práctica anterior.
-  
+## Recursos
+
+La B.D. y el servidor asociado son los mismos que en las prácticas anteriores. No
+obstante, como es habitual en la vida del software, desde el comienzo del cuatrimestre
+se han liberado versiones nuevas. Por tanto, si no has actualizado a la última versión,
+este es el momento de hacer un _pull_ del repositorio para obtener dicha versión. A
+continuación, como los contenerdores docker tienen una versión antigua, tendrás que
+borrarlos y volver a crearlos con la nueva.
+
+También necesitarás un serivdor web que, como mínimo, sirva los documentos html, css
+y el código javascript. Como es habitual en una aplicación web, es muy probable que
+el código javascript tenga problemas para acceder a otros servidores (en tu caso, el
+servidor de la B.D.). Así que a mayores el servidor web tendrá que responder a las
+peticiones del código javascript y consultar la B.D. en su lugar. Teniendo esto en
+cuenta, elige el servidor web o framework que consideres oportuno para implementar
+la parte de backend de la aplicación.
+
 <a href="{{page.url|baseUrl}}tarea_3" class="paper-btn">Siguiente: Tarea 3</a>
