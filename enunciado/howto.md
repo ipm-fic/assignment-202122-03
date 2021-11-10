@@ -134,10 +134,12 @@ apellidos, dni
 	Consultar la información personal
                 Permite a una usuaria del sistema consultar los datos de su perfil:
          	nombre, apellidos, ..., su código QR y una lista de sus accessos
-                registrados en el sistema durante la última semana.
+                más relevantes. 
 
 Una usuaria registrada puede consultar en cualquier momento la
-información descrita.
+información descrita. A la hora de definir la lista de accessos a mostrar, puedes
+guiarte por la disponibilidad de funciones del api de la B.D. También debes limitar
+el número de items mostrados de manera que no sea necesario el uso de páginación.
 
 Recuerda que los códigos QR están asociados a una persona e incluyen la siguiente
 información: nombre, apellidos, uuid de su entrada en la BD.
